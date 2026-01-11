@@ -5,10 +5,10 @@ Keyboard that hooks up to LCD tablets
 
 ## HOOK64 Build Guide
 
-[ビルドガイド（日本語）](HOOK64/Documents//buildguide_pre-soldered.md)
+[はんだ付け済み版 ビルドガイド（日本語）](HOOK64/Documents//buildguide_pre-soldered.md)
 
 ## HOOK49 Build Guide
 
-[ビルドガイド（日本語）](HOOK49/Documents//buildguide_pre-soldered.md)
+[はんだ付け済み版 ビルドガイド（日本語）](HOOK49/Documents//buildguide_pre-soldered.md)
   
 ![120px-Cc-by-nc-sa_icon svg](https://user-images.githubusercontent.com/58157342/87903527-24883480-ca97-11ea-86a5-e6abcf258247.png)
