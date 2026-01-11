@@ -1,4 +1,4 @@
-# HOOK64 はんだ付け済みビルドガイド
+# HOOK64 はんだ付け済み版 ビルドガイド
 ## はじめに
 ![G8mPXopa0AAUuzB](https://github.com/user-attachments/assets/dab6c271-4ba7-4d58-8550-17ffff92859a)
 このたびはご購入いただきありがとうございます。<br>
