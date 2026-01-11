@@ -1,4 +1,4 @@
-# HOOK49 はんだ付け済みビルドガイド
+# HOOK49 はんだ付け済み版 ビルドガイド
 ## はじめに
 ![G8mPXopa0AAUuzB](https://github.com/user-attachments/assets/95d2485c-3f2e-4a8a-8719-8e44307fcce2)
 このたびはご購入いただきありがとうございます。<br>
