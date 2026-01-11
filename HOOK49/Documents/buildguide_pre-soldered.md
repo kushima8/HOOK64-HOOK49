@@ -3,7 +3,7 @@
 このたびはご購入いただきありがとうございます。<br>
 本製品は組み立てが必要なキットです。<br>
 頒布によっては本体が程度組み立て済みの場合がございます。<br>
-その場合は「2.キースイッチの取り付け」から組み立てをお願い致します<br>
+その場合は組み立ての「3.トッププレートにキースイッチを取り付け」からお願い致します<br>
   
 作成にあたり不明点や疑問点などがありましたら、作者の[Twitterアカウント](https://twitter.com/kushima8)までリプライやDMでご連絡ください。<br>
 Twitter以外で連絡を頂いても対応が厳しいです。<br>
@@ -22,9 +22,9 @@ Boothや遊舎工房など作者本人が販売または委託している箇所
 
 ファームウェアに[qmk_firmware](https://github.com/qmk/qmk_firmware)を採用しています。<br>
 QMKにHOOK49のコードはマージされていませんのでこの[ブランチ](https://github.com/kushima8/qmk_firmware/tree/hook)を使用してください。<br>
-動作確認の為の［コンパイル済みファームウェアをHEXファイル](●)を用意しています。<br>
+動作確認の為のコンパイル済みファームウェアを[HEXファイル](https://github.com/kushima8/HOOK64-HOOK49/tree/main/HOOK49/HEX)と[UF2ファイル](https://github.com/kushima8/HOOK64-HOOK49/tree/main/HOOK49/UF2)を用意しています。<br>
 
-付属のpro Microにあらかじめファームウェアを書き込んであります。<br>
+購入時にpro Microが付属している場合のみあらかじめファームウェアを書き込んであります。<br>
 他のファームウェアを書き込む場合など下記サイトを参考にしてください。<br>
 [（初心者編）自作キーボードにファームウェアを書き込む](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox)<br>
 
@@ -67,7 +67,9 @@ VIAとRemapについては下記のサイトを参考にしてください。<br
 　下記動画内で紹介されているキースイッチであれば使用可能ですのでご参考してください。<br>
 　https://www.youtube.com/watch?v=yv6PdiGenEw<br>
 
-※使用可能なキーキャップについては、[Keychron JIS 配列 ロープロファイル ABS フルセット キーキャップ](https://keychron.co.jp/products/keychron-jis-low-profile-abs-full-set-keycap)のみとなります。<br>
+※使用可能なキーキャップについては、  
+　[Keychron JIS 配列 ロープロファイル ABS フルセット キーキャップ](https://keychron.co.jp/products/keychron-jis-low-profile-abs-full-set-keycap)  
+　のみとなります。<br>
 　こちらを必ずご用意してご使用ください。<br>
 　その他のキーキャップを使用する場合はエンターと左シフト部分のスタビライザーと齟齬が発生いたします。<br>
 
@@ -79,7 +81,7 @@ VIAとRemapについては下記のサイトを参考にしてください。<br
 |----|:---:|----|
 |OLEDモジュール|1個|
 |OLED用ピンソケット|1個|
-|KB2040|1個|もしくはKB2040|
+|KB2040|1個||
 |コンスルーピンヘッダ(3.5mm 12PIN)|2個|
 
 ※動作確認しているPro MicroとKB2040(RP2040 Kee Boar Driver Adafruit)は以下の通りになります。  
@@ -89,32 +91,42 @@ VIAとRemapについては下記のサイトを参考にしてください。<br
 　https://shop.yushakobo.jp/products/pro-micro?variant=42225070768359  
 　RP2040 Kee Boar Driver  
 　https://akizukidenshi.com/catalog/g/g117312/
-
+ 
+※一部画像に制作手順が似ているHOOK64の画像を使用しております。
 ## 組み立て
-* 1.ケースの取り付け
-  * ケースにスタビライザーを取り付けてください。<br>
-  * M2 6mmスペーサーをケースのネジ穴の位置を合わせ、M2 4mmネジで固定してください。<br>
-  * その後、PCB乗せてM2 4mmネジで固定してください。<br>
-  ![036](●)
-* 2.キースイッチの取り付け
-  * トッププレートの穴にキースイッチを取り付けてください。
-  * キースイッチがハマりにくい場合はヤスリなどを使いトッププレートの穴を削ってください。<br>
-  * キースイッチ全てトッププレートに取り付け後、PCBに取り付けてください。<br>  
-  ![031](●)
-* 3.キーキャップの取り付け
-  * キースイッチにキーキャップを取り付けてください。
-* 4.ブックエンドの取り付け(※画像に制作手順が似ているHOOK69の画像を使用しております。)
-  * 液タブの上面に取り付けるためにブックエンドを背面に取り付けます。
-  * 付属のブックエンドを配置したい液タブ上面の形状に合わせて折り曲げます。<br>
-  ![037](https://user-images.githubusercontent.com/58157342/201515040-f1c5532b-91ab-443b-96a2-05b214e00a33.jpg)
-  ![038](https://user-images.githubusercontent.com/58157342/201515044-37e19a35-c16f-4ffb-9a21-d8dcd65fb2c9.jpg)
-  ![039](https://user-images.githubusercontent.com/58157342/201515045-8ee43847-a1c7-4a05-86fb-dc21356845ca.jpg)
-  ![040](https://user-images.githubusercontent.com/58157342/201515047-ed0a076c-9f26-4bf7-b57e-bb5ac02d6b99.jpg)
-  * マスキングテープなどを使いキーボード本体に仮止めし、液タブ上面に設置します。<br>
-  ![041](https://user-images.githubusercontent.com/58157342/202377845-bb420fcd-b653-4810-9516-9d805eb1857e.jpg)
-　![042](https://user-images.githubusercontent.com/58157342/202377849-296d654f-d590-43b9-9705-ff169236decc.jpg)
-　![043](https://user-images.githubusercontent.com/58157342/202377851-5f8c7a56-6fab-4621-b63c-c3a862497d6d.jpg)
-  * 設置しブックエンドの配置に問題なければに仮止めを外し、両面テープなどで固定してください。
-  * 固定する際はネジを避けるようにしてください。
+* 1.ケース組み立て
+  * 2つあるケースそれぞれにスタビライザーを取り付けてください。  
+  * 取り付け後、両方のケースにM2 6mmスペーサーをネジ穴の位置に合わせて配置し、M2 4mmネジで固定してください。  
+![20260111_030211](https://github.com/user-attachments/assets/08ec17c0-6ca0-4bcc-88db-58d18e4e1336)
+
+* 2.PCB取り付け
+  * ２つある組み立てたケースに対し、スタビライザーの位置がPCBのネジ穴に合うようにPCBを配置してください。  
+  * その後、M2 4mmネジで固定してください。  
+![20260111_030958](https://github.com/user-attachments/assets/7fbf5948-5c66-4c54-b4e2-a838248b53f3)
+
+* 3.トッププレートにキースイッチを取り付け
+  * 2つあるトッププレートそれぞれの穴にキースイッチを取り付けてください。  
+  * キースイッチがはまりにくい場合は、ヤスリなどを使用してトッププレートの穴を調整してください。  
+  * キースイッチ取り付け後、各キースイッチにキーキャップを取り付けてください。  
+![20260111_030834](https://github.com/user-attachments/assets/0dca7ca7-04dd-4a8a-ad21-ced6b997c984)
+
+* 4.本体にトッププレートとキースイッチを取り付け
+  * キースイッチを取り付けたトッププレートを、本体に差し込んでください。  
+  * この際、スイッチのピンが曲がらないよう十分ご注意ください。  
+  * 取り付け後、[Remap](https://remap-keys.app/)などを使用して、すべてのキースイッチが正しく認識されているか入力確認を行ってください。 
+
+* 5.ブックエンドの取り付け（※画像は制作手順が類似しているHOOK69のものを使用しています）
+  * 液晶タブレット上面に設置するため、ブックエンドを本体背面に取り付けます。  
+  * 付属のブックエンドを、設置予定の液タブ上面の形状に合わせて折り曲げてください。  
+![037](https://user-images.githubusercontent.com/58157342/201515040-f1c5532b-91ab-443b-96a2-05b214e00a33.jpg)
+![038](https://user-images.githubusercontent.com/58157342/201515044-37e19a35-c16f-4ffb-9a21-d8dcd65fb2c9.jpg)
+![039](https://user-images.githubusercontent.com/58157342/201515045-8ee43847-a1c7-4a05-86fb-dc21356845ca.jpg)
+![040](https://user-images.githubusercontent.com/58157342/201515047-ed0a076c-9f26-4bf7-b57e-bb5ac02d6b99.jpg)
+  * マスキングテープなどでキーボード本体に仮止めし、液タブ上面に設置してください。  
+![041](https://user-images.githubusercontent.com/58157342/202377845-bb420fcd-b653-4810-9516-9d805eb1857e.jpg)
+![042](https://user-images.githubusercontent.com/58157342/202377849-296d654f-d590-43b9-9705-ff169236decc.jpg)
+![043](https://user-images.githubusercontent.com/58157342/202377851-5f8c7a56-6fab-4621-b63c-c3a862497d6d.jpg)
+  * 設置後、ブックエンドの位置に問題がなければ仮止めを外し、両面テープなどで固定してください。  
+  * 固定の際は、ネジ部分を避けるようご注意ください。  
 
 組み立ての手順は、以上です。
