@@ -1,5 +1,6 @@
 # HOOK64 はんだ付け済みビルドガイド
 ## はじめに
+![G8mPXopa0AAUuzB](https://github.com/user-attachments/assets/dab6c271-4ba7-4d58-8550-17ffff92859a)
 このたびはご購入いただきありがとうございます。<br>
 本製品は組み立てが必要なキットです。<br>
 頒布によっては本体が程度組み立て済みの場合がございます。<br>
