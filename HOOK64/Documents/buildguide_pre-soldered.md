@@ -68,12 +68,6 @@ VIAとRemapについては下記のサイトを参考にしてください。<br
 　下記動画内で紹介されているキースイッチであれば使用可能ですのでご参考してください。<br>
 　https://www.youtube.com/watch?v=yv6PdiGenEw<br>
 
-※使用可能なキーキャップについては、  
-　[Keychron JIS 配列 ロープロファイル ABS フルセット キーキャップ](https://keychron.co.jp/products/keychron-jis-low-profile-abs-full-set-keycap)  
-　のみとなります。<br>
-　こちらを必ずご用意してご使用ください。<br>
-　その他のキーキャップを使用する場合はエンターと左シフト部分のスタビライザーと齟齬が発生いたします。<br>
-
 ### オプション
 以下の部品はオプション品です。
 キーボードを光らせたいなどの場合のみ別途購入しはんだ付けを実施してください。
